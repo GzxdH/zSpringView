@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+    defaultConfig {
+        applicationId "com.liaoinstan.demospring"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 17
+        versionName "1.7.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true      //开启代码混淆
+            zipAlignEnabled true    //是否zip对齐优化
+            shrinkResources true    //移除无用的资源文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "DemoSpring-${defaultConfig.versionName}-${variant.buildType.name}.apk"
+        }
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "androidx.appcompat:appcompat:$supportLibraryVersion"
+    implementation "com.google.android.material:material:$materialLibraryVersion"
+
+//    implementation 'com.liaoinstan.springview:library:1.7.0'
+//    implementation 'com.liaoinstan.springview:AcfunHeader:1.7.0'
+//    implementation 'com.liaoinstan.springview:AliHeader:1.7.0'
+//    implementation 'com.liaoinstan.springview:MeituanHeader:1.7.0'
+//    implementation 'com.liaoinstan.springview:RotationHeader:1.7.0'
+//    implementation 'com.liaoinstan.springview:WeixinHeader:1.7.0'
+//    implementation 'com.liaoinstan.springview:DuHeader:1.7.0'
+
+    implementation project(':library')
+}
