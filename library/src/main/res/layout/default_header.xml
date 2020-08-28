@@ -21,7 +21,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="下拉刷新"
+                android:text="@string/bottom_sv"
                 android:textColor="#777777" />
 
             <LinearLayout
@@ -30,9 +30,10 @@
                 android:layout_marginTop="3dp">
 
                 <TextView
+                    android:id="@+id/default_header_time1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="上次更新时间："
+                    android:text="@string/last_sv"
                     android:textColor="#777777"
                     android:textSize="12sp" />
 
@@ -40,7 +41,7 @@
                     android:id="@+id/default_header_time"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="刚刚"
+                    android:text="@string/just_sv"
                     android:textColor="#777777"
                     android:textSize="12sp" />
             </LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SpringView</string>
+    <string name="just_sv">just</string>
+    <string name="last_sv">Last updated:</string>
+    <string name="bottom_sv">Pull down to refresh</string>
+</resources>

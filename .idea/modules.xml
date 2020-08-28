@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringView.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringView.iml" group="SpringView" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo/demo.iml" filepath="$PROJECT_DIR$/.idea/modules/demo/demo.iml" group="SpringView/demo" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/library.iml" group="SpringView/library" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo/demo.iml" filepath="$PROJECT_DIR$/.idea/modules/demo/demo.iml" group="zSpringView/demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/library.iml" group="zSpringView/library" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zSpringView.iml" filepath="$PROJECT_DIR$/.idea/modules/zSpringView.iml" group="zSpringView" />
     </modules>
   </component>
 </project>
