@@ -3,4 +3,8 @@
     <string name="just_sv">ただ</string>
     <string name="last_sv">最終更新：</string>
     <string name="bottom_sv">プルダウンして更新</string>
+
+    <string name="language_cn">中文</string>
+    <string name="language_en">ENGLISH</string>
+    <string name="language_auto">自动</string>
 </resources>

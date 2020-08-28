@@ -3,4 +3,8 @@
     <string name="just_sv">다만</string>
     <string name="last_sv">마지막 업데이트 :</string>
     <string name="bottom_sv">아래로 당겨 새로 고침</string>
+
+    <string name="language_cn">中文</string>
+    <string name="language_en">ENGLISH</string>
+    <string name="language_auto">自动</string>
 </resources>

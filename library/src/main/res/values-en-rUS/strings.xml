@@ -3,4 +3,8 @@
     <string name="just_sv">just</string>
     <string name="last_sv">Last updated:</string>
     <string name="bottom_sv">Pull down to refresh</string>
+
+    <string name="language_cn">中文</string>
+    <string name="language_en">ENGLISH</string>
+    <string name="language_auto">自动</string>
 </resources>

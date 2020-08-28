@@ -3,4 +3,8 @@
     <string name="just_sv">gerade</string>
     <string name="last_sv">Letzte Aktualisierung:</string>
     <string name="bottom_sv">Zum Aktualisieren nach unten ziehen</string>
+
+    <string name="language_cn">中文</string>
+    <string name="language_en">ENGLISH</string>
+    <string name="language_auto">自动</string>
 </resources>
